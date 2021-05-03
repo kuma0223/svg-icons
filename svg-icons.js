@@ -34,8 +34,7 @@ window.addEventListener("load", function() {
     function setInnerSvg(target){
         const key = target.getAttribute("yu-icon")
         if(!key) return
-        let val = YuSvgIcons[key]
-        if(val == undefined) val = ""
+        let val = (key in YuSvgIcons) ? YuSvgIcons[key] : ""
         target.setAttribute('viewBox','0 0 200 200')
         target.style["fill"] = "currentColor"
         const size = target.getAttribute('size')
@@ -44,6 +43,11 @@ window.addEventListener("load", function() {
             target.setAttribute('height',size)
             target.style['width']=size+'px'
             target.style['height']=size+'px'
+        }
+        const x = Number(target.getAttribute('x') | 0);
+        const y = Number(target.getAttribute('y') | 0);
+        if(x!=0 || y!=0){
+            val = `<g transform="translate(${x*2} ${y*2})">` + val.substring(3)
         }
         target.innerHTML = val
     }
