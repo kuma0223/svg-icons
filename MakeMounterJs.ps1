@@ -21,9 +21,7 @@ window.addEventListener("load", function() {
                     }
                 })
             } else if(rec.type == "attributes"){
-                if(rec.attributeName == "yu-icon"){
-                    setInnerSvg(rec.target)
-                }
+                setInnerSvg(rec.target)
             }
         })
     })
@@ -31,7 +29,7 @@ window.addEventListener("load", function() {
         attributes: true,
         childList: true,
         subtree:true,
-        attributeFilter:["yu-icon"],
+        attributeFilter:["yu-icon","size","x","y"],
     })
     //function
     function setInnerSvg(target){
