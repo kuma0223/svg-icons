@@ -1,7 +1,7 @@
 $myDir=(Split-path $MyInvocation.MyCommand.Path -parent)
 
 $js = @'
-window.addEventListener("load", function() {
+window.addEventListener("DOMContentLoaded", function() {
     //initialize
     document.querySelectorAll("svg").forEach(tar=>{
         setInnerSvg(tar)
