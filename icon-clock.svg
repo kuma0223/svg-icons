@@ -1,0 +1,6 @@
+<svg version="1.1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g fill="#A0A0A0">
+<path d="M 100 20 A 80 80 0 1 1 100 180 A 80 80 0 1 1 100 20 M 100 40 A 60 60 0 1 1 100 160 A 60 60 0 1 1 100 40" fill-rule="evenodd"/>
+<path d="M90.00,60.00 L110.00,60.00 L110.00,90.00 L140.00,90.00 L140.00,110.00 L90.00,110.00 L90.00,60.00 Z"/>
+</g>
+</svg>

@@ -1,0 +1,6 @@
+<svg version="1.1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g fill="#A0A0A0">
+<path d="M60.00,60.00 L140.00,60.00 L140.00,140.00 L60.00,140.00 L60.00,60.00 M 140 60 A 40 40 0 1 1 140 140 M 60 140 A 40 40 0 1 1 60 60 Z" fill-opacity="0.3"/>
+<circle cx="140" cy="100" r="50" />
+</g>
+</svg>

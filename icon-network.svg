@@ -1,0 +1,10 @@
+<svg version="1.1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g fill="#A0A0A0">
+<path d="M 100 15 A 85 85 0 1 1 100 185 A 85 85 0 1 1 100 15 M 100 27 A 73 73 0 1 1 100 173 A 73 73 0 1 1 100 27" fill-rule="evenodd" />
+<path d="M 100 15 A 85 85 0 1 1 100 185 A 85 85 0 1 1 100 15 M 100 25 A 65 75 0 1 1 100 175 A 65 75 0 1 1 100 25" transform="scale(0.65 1.0) translate(54 0)" fill-rule="evenodd" />
+<path d="M 93 20 L 107 20 L 107 180 L 93 180 Z" />
+<path d="M 20 95 L 20 105 L 180 105 L 180 95 Z" />
+<path d="M 35 55 L 30 65 L 170 65 L 165 55 Z" />
+<path d="M 35 145 L 30 135 L 170 135 L 165 145 Z" />
+</g>
+</svg>
